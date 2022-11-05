@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "buttonText": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)",
+      "required": true
+    }
+  }
+}

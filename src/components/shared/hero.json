@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "crown",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heroText": {
+      "type": "string",
+      "required": true
+    },
+    "heroTagline": {
+      "type": "text"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    }
+  }
+}

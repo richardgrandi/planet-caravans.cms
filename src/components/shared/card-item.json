@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_content_section_card_items",
+  "info": {
+    "displayName": "CardItem",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cardItemTitle": {
+      "type": "string",
+      "required": true
+    },
+    "cardDescription": {
+      "type": "text"
+    },
+    "cardImage": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cardButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    }
+  }
+}

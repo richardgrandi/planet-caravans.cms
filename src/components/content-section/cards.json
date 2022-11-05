@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_content_section_cards",
+  "info": {
+    "displayName": "cards",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
