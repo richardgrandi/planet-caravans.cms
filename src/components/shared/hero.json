@@ -16,7 +16,7 @@
     },
     "heroImage": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "required": true,
       "allowedTypes": [
         "images"
@@ -25,7 +25,9 @@
     "button": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.button"
+      "component": "shared.button",
+      "max": 2,
+      "min": 2
     }
   }
 }

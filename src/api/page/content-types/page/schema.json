@@ -30,6 +30,13 @@
       "components": [
         "content-section.cards"
       ]
+    },
+    "ctaPanels": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cta-section",
+      "max": 2,
+      "min": 2
     }
   }
 }

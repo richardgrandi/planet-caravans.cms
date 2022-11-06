@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_shared_cta_sections",
+  "info": {
+    "displayName": "CTA Section",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "panelTitle": {
+      "type": "string"
+    },
+    "colour": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "black",
+        "red",
+        "orange",
+        "blue"
+      ]
+    },
+    "panelLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

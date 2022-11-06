@@ -8,6 +8,13 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "cardItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.card-item",
+      "min": 2,
+      "max": 2
     }
   }
 }
